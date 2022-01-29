@@ -4,6 +4,7 @@
   "description": " A one-way DM syncer from Revolt to Discord ",
   "main": "index.js",
   "scripts": {
+    "start": "node --experimental-specifier-resolution=node index.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/Evilhotdog/ripcord/issues"
   },
-  "homepage": "https://github.com/Evilhotdog/ripcord#readme"
+  "homepage": "https://github.com/Evilhotdog/ripcord#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^14.3.2",
+    "revolt.js": "^5.2.8"
+  }
 }
